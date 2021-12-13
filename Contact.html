@@ -14,15 +14,37 @@
         <br>
         <br>
         <h1 style="color:rgb(214, 70, 106)" align="center"> Contact Me </h1>
-        <form action="">
-            <label style="padding-left: 25px;"> First Name </label> 
-            <input type="text" name="firstName"> <br><br>
-            <label style="padding-left: 26px;"> Last Name </label> 
-            <input type="text" name="lastName"> <br><br>
-            <label style="padding-left: 59px;"> email </label> 
-            <input type="email" name="email"> <br><br>
-            <label style="padding-left: 39px;"> Message </label> 
-            <textarea cols="50" rows="7" name="Message"> Enter your message here </textarea> <br><br>
+        <form action=" " method="get">
+            <label for="aaa" style="padding-left: 25px;" > First Name </label> 
+            <input id="aaa" type="text" name="firstName" > <br><br>
+           
+            <label for="bbb" style="padding-left: 26px;" > Last Name </label> 
+            <input id="bbb" type="text" name="lastName" > <br><br>
+           
+            <label for="ccc" style="padding-left: 59px;" > email </label> 
+            <input id="ccc" type="email" name="email" > <br><br>
+
+            <label for="ddd" style="padding-left: 39px;" > Message </label> 
+            <textarea id="ddd" cols="50" rows="7" name="Message" > Enter your message here </textarea> <br><br><br>
+
+            <label style="padding-left: 26px;" >Would you recommend our website?</label><br>
+            <input id="eee" type="radio" name="RadioButton" value="Yes" >
+            <label for="eee" >Yes</label> <br>
+
+            <input id="fff" type="radio" name="RadioButton" value="No" >
+            <label for="fff" >No</label><br><br>
+
+            <label style="padding-left: 26px;">How would you like to be contacted?</label><br>
+            <input id="ggg" type="checkbox" name="CheckPhone" value="Phone">
+            <label for="ggg">Phone</label><br>
+
+            <input id="hhh" type="checkbox" name="Checkemail" value="email">
+            <label for="hhh">email</label><br>
+
+            <input id="iii" type="checkbox" name="CheckByMail" value="ByMail">
+            <label for="iii">By mail</label><br><br>
+            
+            
             <button type="submit"> Send </button>
 
         </form>
